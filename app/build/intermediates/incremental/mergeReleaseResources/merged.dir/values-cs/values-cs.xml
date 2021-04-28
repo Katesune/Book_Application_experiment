@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nové oznámení</item>
+    <item quantity="few">%d nová oznámení</item>
+    <item quantity="many">%d nového oznámení</item>
+    <item quantity="other">%d nových oznámení</item>
+  </plurals>
+    <plurals name="numberOfSearchResults">
+        <item quantity="one">%d výskyt</item>
+        <item quantity="other">%d výskytů</item>
+    </plurals>
+    <string name="Cancel">Zrušit</string>
+    <string name="LanguageChooserTitle">Vyberte dva jazyky:</string>
+    <string name="OK">OK</string>
+    <string name="SetSizeTitle">Velikost horního panelu:</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Více možností"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VYP"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ZAP"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mezerník"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Dotaz pro vyhledávání"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Sdílet s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Sdílet s aplikací <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <string name="authorsMeta">&lt;tr>&lt;td>Autoři:&lt;/td></string>
+    <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
+    <string name="cannot_access_epub_message">Nelze otevřít elektronickou knihu, je třeba povolit práva na zápis do externí paměti!</string>
+    <string name="changeStyle">Změna stylu</string>
+    <string name="change_Font">Změnit písmo</string>
+    <string name="change_Font_Color">Barva písma:</string>
+    <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
+    <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Vymazat text</string>
+    <string name="contents">Obsah</string>
+    <string name="contributorsMeta">&lt;tr>&lt;td>Přispěvatelé:&lt;/td></string>
+    <string name="copied">Zkopírované</string>
+    <string name="copy">Kopírovat</string>
+    <string name="define">Definice</string>
+    <string name="descriptionsMeta">&lt;tr>&lt;td>Popisy:&lt;/td></string>
+    <string name="dictionary">Slovník</string>
+    <string name="direction_horizontal">Horizontální</string>
+    <string name="direction_vertical">Vertikální</string>
+    <string name="edit_notes">Uložte si poznámku</string>
+    <string name="error_CannotChangeStyle">Není možné změnit styl!</string>
+    <string name="error_icon_content_description">Chyba</string>
+    <string name="exposed_dropdown_menu_content_description">Zobrazit rozbalovací nabídku</string>
+    <string name="half_speed">1/2x</string>
+    <string name="highlight">Zvýraznit</string>
+    <string name="highlights">Zvýrazněné</string>
+    <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="item_view_role_description">Karta</string>
+    <string name="languageMeta">&lt;tr>&lt;td>Jazyky:&lt;/td>&lt;td></string>
+    <string name="less_than_minute">Méně než minuta · </string>
+    <string name="loading">Probíhá načítání</string>
+    <string name="material_clock_toggle_content_description">Vyberte AM nebo PM</string>
+    <string name="material_hour_selection">Vyberte hodinu</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Zvolte minuty</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Chcete-li zadat čas, přepněte na režim hodin.</string>
+    <string name="material_timepicker_hour">Hodina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Vyberte čas</string>
+    <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
+    <string name="menu_item_config">Nastavení</string>
+    <string name="menu_item_copy">Kopírovat</string>
+    <string name="menu_item_define">Definice</string>
+    <string name="menu_item_highlight">Zvýraznit</string>
+    <string name="menu_item_search">Vyhledávání</string>
+    <string name="menu_item_share">Sdílet</string>
+    <string name="menu_item_tts">Převod textu na řeč</string>
+    <string name="minute_left">%1$d minuta · </string>
+    <string name="minutes_left">%1$d minut · </string>
+    <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
+    <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vyberte datum</string>
+    <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
+    <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
+    <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
+    <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="one_and_half">1 1/2x</string>
+    <string name="onex">1x</string>
+    <string name="page_left">%1$d strana zůstává</string>
+    <string name="pages_left">%1$d stran zůstává</string>
+    <string name="password_toggle_content_description">Zobrazit heslo</string>
+    <string name="please_enter_note">zadejte poznámku</string>
+    <string name="please_wait">prosím čekejte...</string>
+    <string name="please_wait_till_audio_is_parsed">čekejte prosím na analyzování zvuku, o chvíli zkuste znovu</string>
+    <string name="publishersMeta">&lt;tr>&lt;td>Vydavatelé:&lt;/td></string>
+    <string name="rightsMeta">&lt;tr>&lt;td>Práva:&lt;/td></string>
+    <string name="save_note">Uložit poznámku</string>
+    <string name="search_empty_text">Žádné výsledky.</string>
+    <string name="search_failure_text">Něco se pokazilo.</string>
+    <string name="search_hint">Vyhledávání v knize</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
+    <string name="send_to">Odeslat</string>
+    <string name="share">Sdílet</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="style">Styl</string>
+    <string name="style_underline"><![CDATA[<u style=\" border-bottom: 1px dashed #bcbcbc;   text-decoration: none;\">Styl</u>]]></string>
+    <string name="titlesMeta">&lt;tr>&lt;td>Názvy:&lt;/td></string>
+    <string name="tocReference">&lt;tr>&lt;td>Obsah:&lt;/td></string>
+    <string name="two_x">2x</string>
+    <string name="typesMeta">&lt;tr>&lt;td>Druhy:&lt;/td></string>
+    <string name="wikipedia">Wikipedie</string>
+</resources>

@@ -1,0 +1,23 @@
+com/example/bookapplication/ResoursesHelper.java
+ com.example.bookapplication.ResoursesHelper
+ com.example.bookapplication.ResoursesHelper$1
+com/example/bookapplication/BuildConfig.java
+ com.example.bookapplication.BuildConfig
+com/example/bookapplication/Book.java
+ com.example.bookapplication.Book
+com/example/bookapplication/ActivityActivity.java
+ com.example.bookapplication.ActivityActivity
+com/example/bookapplication/GotoEpubFile.java
+ com.example.bookapplication.GotoEpubFile
+com/example/bookapplication/SkyepubBook.java
+ com.example.bookapplication.SkyepubBook
+com/example/bookapplication/AnimationRunner.java
+ com.example.bookapplication.AnimationRunner
+com/example/bookapplication/PageActivity.java
+ com.example.bookapplication.PageActivity
+com/example/bookapplication/MainActivity.java
+ com.example.bookapplication.MainActivity
+com/example/bookapplication/Page.java
+ com.example.bookapplication.Page
+com/example/bookapplication/Chapter.java
+ com.example.bookapplication.Chapter

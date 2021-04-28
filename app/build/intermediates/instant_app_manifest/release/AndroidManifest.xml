@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookapplication"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookApplication" >
+        <activity android:name="com.example.bookapplication.GotoEpubFile" />
+        <activity android:name="com.example.bookapplication.SkyepubBook" />
+        <activity android:name="com.example.bookapplication.PageActivity" />
+        <activity android:name="com.example.bookapplication.ActivityActivity" />
+        <activity android:name="com.example.bookapplication.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="com.folioreader.AppContext"
+            android:authorities="com.example.bookapplication.provider.appcontext"
+            android:exported="false" />
+
+        <activity
+            android:name="com.folioreader.ui.activity.FolioActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FolioActivityDayTheme" />
+        <activity
+            android:name="com.folioreader.ui.activity.ContentHighlightActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.folioreader.ui.activity.SearchActivity"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            android:name="org.readium.r2.streamer.ClientAppContext"
+            android:authorities="com.example.bookapplication.provider.clientappcontext"
+            android:exported="false" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.bookapplication.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

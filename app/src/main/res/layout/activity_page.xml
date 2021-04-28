@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PageActivity">
+
+    <Button
+        android:id="@+id/large_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeLargeText"
+        android:text="A"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeSmallText"
+        android:text="a"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/change_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeBack"
+        android:text="night"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textbook"
+        android:layout_width="307dp"
+        android:layout_height="442dp"
+        android:text="Text"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/go_to_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="goToActivity"/>
+</LinearLayout>
