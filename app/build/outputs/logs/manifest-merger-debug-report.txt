@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\90b500b66af98846871e410de5ff3045\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:10:1-28:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\5bd548de102881f2b3974b7fd39eba5c\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\7c5d84a0328f9676c528efb4e7e66c54\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -18,6 +19,8 @@ MERGED from [com.github.kittinunf.fuel:fuel-android:1.15.0] C:\Users\Katya\.grad
 MERGED from [com.mcxiaoke.koi:core:0.5.5] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d964f30df2802cf6b5fc35d7a4de0a21\jetified-core-0.5.5\AndroidManifest.xml:2:1-12:12
 MERGED from [com.mcxiaoke.koi:async:0.5.5] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\21a131985787ffc4da0ee8e2692d71ff\jetified-async-0.5.5\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\9053a7c301262979519a6e149d117352\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.test:rules:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\f7719397bc478b20e68bf475b95f872e\rules-1.1.0-alpha3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\21c8429272e14cdb752a07361d193a09\runner-1.1.0-alpha3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\69158a490d837cbf451556bacc034d65\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\48728fc3be15cb5e686e524e85e7fabf\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\e5e374c843b6cb1589a5476668cd23d4\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -43,6 +46,7 @@ MERGED from [androidx.core:core:1.3.1] C:\Users\Katya\.gradle\caches\transforms-
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\2180419d599ac4cc6581f5869fe8a168\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\219a1c92e4147b4b27ae72aa4a9f1dfc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\bd8e1bf22055b7f0592a240dfb63a736\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ec1a63fdd6f5da55ae8ada04f1f1d1c9\monitor-1.1.0-alpha3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d0ea37240b8c08909789a805461c3b88\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\17909f9a244cbdeb624339fd34d459ae\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -55,22 +59,22 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\169ff925d31c56a8bb3c241ae3dcc5b9\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\de67eaed4c54032d4d340d8b424f27b2\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\da283ee3be81d5789c8201a591b20f2b\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:4:5-42
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,6 +86,8 @@ MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\tr
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:8:5-11:82
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\90b500b66af98846871e410de5ff3045\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\90b500b66af98846871e410de5ff3045\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:14:5-16:41
 MERGED from [com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:14:5-16:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\5bd548de102881f2b3974b7fd39eba5c\material-1.3.0\AndroidManifest.xml:20:5-44
@@ -106,6 +112,10 @@ MERGED from [com.mcxiaoke.koi:async:0.5.5] C:\Users\Katya\.gradle\caches\transfo
 MERGED from [com.mcxiaoke.koi:async:0.5.5] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\21a131985787ffc4da0ee8e2692d71ff\jetified-async-0.5.5\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\9053a7c301262979519a6e149d117352\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\9053a7c301262979519a6e149d117352\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:rules:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\f7719397bc478b20e68bf475b95f872e\rules-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\f7719397bc478b20e68bf475b95f872e\rules-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\21c8429272e14cdb752a07361d193a09\runner-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\21c8429272e14cdb752a07361d193a09\runner-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\69158a490d837cbf451556bacc034d65\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\69158a490d837cbf451556bacc034d65\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\48728fc3be15cb5e686e524e85e7fabf\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
@@ -156,6 +166,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Katya\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\219a1c92e4147b4b27ae72aa4a9f1dfc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\bd8e1bf22055b7f0592a240dfb63a736\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\bd8e1bf22055b7f0592a240dfb63a736\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ec1a63fdd6f5da55ae8ada04f1f1d1c9\monitor-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ec1a63fdd6f5da55ae8ada04f1f1d1c9\monitor-1.1.0-alpha3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d0ea37240b8c08909789a805461c3b88\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d0ea37240b8c08909789a805461c3b88\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
@@ -196,10 +208,14 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:8:5-81
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:13:5-81
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:13:5-81
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:11:5-81
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:12:5-80
+MERGED from [com.github.gregcockroft:AndroidMath:ALPHA] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\ba55e2eb903b2d688373c311b3d09bcb\AndroidMath-ALPHA\AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.INTERNET
@@ -209,7 +225,7 @@ MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\tr
 	android:name
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:12:5-37:19
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:12:5-38:19
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:16:5-43:19
 MERGED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:16:5-43:19
 MERGED from [com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:18:5-26:19
@@ -258,46 +274,50 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Katya\.gradle\caches\
 		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:20:9-53
 	tools:replace
 		ADDED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:19:9-44
-activity#com.example.bookapplication.DirectoryActivity
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:9-64
+activity#com.example.bookapplication.TestActivity
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:9-59
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:19-52
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.example.bookapplication.GuideActivity
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.example.bookapplication.GotoEpubFile
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:19-47
 activity#com.example.bookapplication.SkyepubBook
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:9-49
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:9-49
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:19-46
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:19-46
 activity#com.example.bookapplication.PageActivity
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:9-50
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:19-47
 activity#com.example.bookapplication.ActivityActivity
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:9-54
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:19-51
 activity#com.example.bookapplication.MainActivity
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:27:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:31:27-74
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:required
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:35:13-50
+		ADDED from C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:36:13-50
 provider#com.folioreader.AppContext
 ADDED from [com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:20:9-23:40
 	android:authorities

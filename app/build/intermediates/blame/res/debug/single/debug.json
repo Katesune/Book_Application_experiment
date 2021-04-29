@@ -108,6 +108,10 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\0f37725f7718c759f1d855ba25d5c65d\\folioreader-0.5.4\\res\\xml\\searchable.xml"
     },
     {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\font_fira_sans_bold.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\font\\fira_sans_bold.xml"
+    },
+    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -310,6 +314,10 @@
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\f966514bbf29a49db992e0518d391321\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guide.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\layout\\activity_guide.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_design_box_stroke_color.xml.flat",
@@ -604,12 +612,12 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_mtrl.xml.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow.xml.flat",
         "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\drawable\\ic_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_mtrl.xml.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_man_speech_icon.xml.flat",
@@ -766,6 +774,10 @@
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_search_failure.xml.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\0f37725f7718c759f1d855ba25d5c65d\\folioreader-0.5.4\\res\\layout\\item_search_failure.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\font_fira_sans_medium.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\font\\fira_sans_medium.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_highlight_list.xml.flat",
@@ -1332,12 +1344,12 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\5bd548de102881f2b3974b7fd39eba5c\\material-1.3.0\\res\\layout\\mtrl_picker_text_input_date.xml"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_button_1.xml.flat",
         "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\drawable\\ic_button_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1536,12 +1548,12 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_table_of_contents.xml.flat",
@@ -1876,6 +1888,10 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\font_fira_sans.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\font\\fira_sans.xml"
+    },
+    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -2052,10 +2068,6 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_directory.xml.flat",
-        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\layout\\activity_directory.xml"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material_anim.xml.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable\\abc_btn_radio_material_anim.xml"
     },
@@ -2228,12 +2240,12 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\5bd548de102881f2b3974b7fd39eba5c\\material-1.3.0\\res\\layout\\mtrl_calendar_day.xml"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_guide.xml.flat",
         "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\drawable\\ic_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -2260,12 +2272,12 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_topleft_to_bottomright.xml.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\0f37725f7718c759f1d855ba25d5c65d\\folioreader-0.5.4\\res\\anim\\grow_from_topleft_to_bottomright.xml"
-    },
-    {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\0f37725f7718c759f1d855ba25d5c65d\\folioreader-0.5.4\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_topleft_to_bottomright.xml.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\0f37725f7718c759f1d855ba25d5c65d\\folioreader-0.5.4\\res\\anim\\grow_from_topleft_to_bottomright.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -2380,16 +2392,16 @@
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\5bd548de102881f2b3974b7fd39eba5c\\material-1.3.0\\res\\layout\\mtrl_picker_text_input_date_range.xml"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -2678,6 +2690,10 @@
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\d3a463203043c29775633e3e866c98e0\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
         "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_material_clock_period_toggle_land.xml.flat",

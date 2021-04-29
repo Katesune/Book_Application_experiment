@@ -7,17 +7,60 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/go_to_page"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:onClick="goToPage"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/go_to_epub_book"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:onClick="goToEpubBook"/>
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/fira_sans_medium"
+            android:text="Интерактивный учебник"
+            android:textColor="#3B3277"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/go_to_epub_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="goToEpubBook"
+            app:srcCompat="@drawable/ic_button_1" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/fira_sans_medium"
+            android:text="Помощь в учебе"
+            android:textColor="#3B3277"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/go_to_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="goToDirectory"
+            app:srcCompat="@drawable/ic_guide" />
+
+        <ImageButton
+            android:id="@+id/go_to_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="goToTest"
+            app:srcCompat="@drawable/ic_test" />
+
+    </LinearLayout>
 </LinearLayout>

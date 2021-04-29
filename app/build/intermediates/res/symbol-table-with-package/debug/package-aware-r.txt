@@ -77,6 +77,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1845,6 +1849,9 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transparent_selector
 drawable trash
+font fira_sans
+font fira_sans_bold
+font fira_sans_medium
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1930,6 +1937,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2001,6 +2009,7 @@ id defineSelection
 id deleteHighlight
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2055,8 +2064,8 @@ id ghost_view
 id ghost_view_holder
 id go_to_activity
 id go_to_epub_book
-id go_to_epub_file
-id go_to_page
+id go_to_guide
+id go_to_test
 id gone
 id graph
 id graph_wrap
@@ -2078,6 +2087,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
+id imageView
 id indicatorLayout
 id info
 id invisible
@@ -2134,6 +2145,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id mathview
 id media_actions
 id message
 id middle
@@ -2173,6 +2185,7 @@ id multiply
 id name
 id navigation_header_container
 id never
+id next
 id next_button
 id noScroll
 id no_network
@@ -2309,9 +2322,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textViewCount
 id textViewResult
 id textViewTitle
+id text_1
+id text_2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2322,6 +2338,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textq_1
 id third_separator
 id time
 id title
@@ -2357,6 +2374,10 @@ id unlabeled
 id up
 id useLogo
 id utv_highlight_content
+id var1
+id var2
+id var3
+id var4
 id view
 id view3
 id view4
@@ -2446,12 +2467,13 @@ layout action_item_horizontal
 layout action_item_vertical
 layout activity_activity
 layout activity_content_highlight
-layout activity_directory
 layout activity_goto_epub_file
+layout activity_guide
 layout activity_main
 layout activity_page
 layout activity_search
 layout activity_skyepub_book
+layout activity_test
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2742,6 +2764,16 @@ string please_enter_note
 string please_wait
 string please_wait_till_audio_is_parsed
 string publishersMeta
+string q0
+string q0a0
+string q0a1
+string q0a2
+string q0a3
+string q1
+string q1a0
+string q1a1
+string q1a2
+string q1a3
 string raleway
 string raleway_font
 string red_rgb
