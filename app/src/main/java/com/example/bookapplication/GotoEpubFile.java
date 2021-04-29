@@ -23,6 +23,7 @@ import com.folioreader.util.OnHighlightListener;
 import com.folioreader.util.ReadLocatorListener;
 
 import org.nanohttpd.protocols.http.IHTTPSession;
+import org.xml.sax.SAXException;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -32,6 +33,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Method;
+
+import javax.xml.parsers.ParserConfigurationException;
 
 
 public class GotoEpubFile extends AppCompatActivity
@@ -65,10 +68,15 @@ public class GotoEpubFile extends AppCompatActivity
         folioReader.setConfig(config, true)
                 .openBook(R.raw.astronomy);
 
+
+        //Log.d("mytag", "seacrh"+folioReader.r2StreamerApi.search(1, "title"));
         //getBook(config);
         //ReadLocator new_readlocator = new ReadLocator();
         Log.d("mytag", "readlocator"+config.toString());
 
+
+
+        //MILParser sm = new SMILParser();
 
 //
     }

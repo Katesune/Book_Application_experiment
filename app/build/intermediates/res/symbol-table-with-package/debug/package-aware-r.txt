@@ -1743,6 +1743,11 @@ drawable dottet_line
 drawable edit_note
 drawable font_text_selector
 drawable green_border_background
+drawable ic_____
+drawable ic_______
+drawable ic_arrow
+drawable ic_book
+drawable ic_button_1
 drawable ic_clock_black_24dp
 drawable ic_close_green_24dp
 drawable ic_drawer
@@ -1751,6 +1756,7 @@ drawable ic_fast_rewind
 drawable ic_format_font_black_24dp
 drawable ic_format_font_black_36dp
 drawable ic_format_underlined
+drawable ic_guide
 drawable ic_highlight_delete
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1768,6 +1774,7 @@ drawable ic_play
 drawable ic_plus_black_24dp
 drawable ic_plus_white_24dp
 drawable ic_search
+drawable ic_test
 drawable ic_volume_gray_24dp
 drawable icon_font
 drawable icon_moon_normal
@@ -1785,6 +1792,7 @@ drawable kometa6
 drawable kometa7
 drawable kometa8
 drawable kometa9
+drawable learn
 drawable man_speech_icon
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2438,6 +2446,7 @@ layout action_item_horizontal
 layout action_item_vertical
 layout activity_activity
 layout activity_content_highlight
+layout activity_directory
 layout activity_goto_epub_file
 layout activity_main
 layout activity_page

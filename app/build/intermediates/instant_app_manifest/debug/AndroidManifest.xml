@@ -26,6 +26,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BookApplication" >
+        <activity android:name="com.example.bookapplication.DirectoryActivity" />
         <activity android:name="com.example.bookapplication.GotoEpubFile" />
         <activity android:name="com.example.bookapplication.SkyepubBook" />
         <activity android:name="com.example.bookapplication.PageActivity" />
