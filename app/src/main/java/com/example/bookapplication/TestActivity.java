@@ -83,4 +83,12 @@ public class TestActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+//    @Override
+//    public void onClick(View v){
+//        switch (v.getId()) {
+//            case R.id.button1: editText.setText("Нажата кнопка Button1"); break;
+//            case R.id.button2: editText.setText("Нажата кнопка Button2"); break;
+//            case R.id.button3: editText.setText("Нажата кнопка Button3"); break;
+//        }
+//    }
 }

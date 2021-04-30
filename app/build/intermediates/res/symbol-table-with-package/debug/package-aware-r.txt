@@ -1750,6 +1750,7 @@ drawable green_border_background
 drawable ic_____
 drawable ic_______
 drawable ic_arrow
+drawable ic_arrowh
 drawable ic_book
 drawable ic_button_1
 drawable ic_clock_black_24dp
@@ -1921,6 +1922,7 @@ id action_text
 id actions
 id activity_activity
 id activity_chooser_view_content
+id activity_guide
 id add
 id alertTitle
 id aligned
@@ -1960,6 +1962,9 @@ id btn_text_color_style
 id btn_text_undeline_style
 id btn_twox_speed
 id btn_wikipedia
+id button
+id button2
+id button3
 id buttonHorizontal
 id buttonPanel
 id buttonVertical
@@ -2323,6 +2328,8 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
 id textViewCount
 id textViewResult
 id textViewTitle
@@ -2474,6 +2481,7 @@ layout activity_page
 layout activity_search
 layout activity_skyepub_book
 layout activity_test
+layout avtivity_result
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2598,6 +2606,10 @@ mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 plurals numberOfSearchResults
 raw astronomy
+raw main10
+raw main13
+raw main3
+raw ntitled
 string Cancel
 string LanguageChooserTitle
 string OK
@@ -2769,11 +2781,13 @@ string q0a0
 string q0a1
 string q0a2
 string q0a3
+string q0right
 string q1
 string q1a0
 string q1a1
 string q1a2
 string q1a3
+string q1right
 string raleway
 string raleway_font
 string red_rgb

@@ -4,9 +4,11 @@
     <string name="q0a1">12</string>
     <string name="q0a2">8</string>
     <string name="q0a3">10</string>
+    <string name="q0right">1</string>
 
     <string name="q1a0">6</string>
     <string name="q1a1">12</string>
     <string name="q1a2">8</string>
     <string name="q1a3">10</string>
+    <string name="q1right">1</string>
 </resources>
