@@ -1,9 +1,14 @@
 package com.example.bookapplication;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.res.ResourcesCompat;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -17,29 +22,39 @@ import java.util.ArrayList;
 import javax.xml.parsers.ParserConfigurationException;
 
 public class GuideActivity extends AppCompatActivity {
+
     LinearLayout linlayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
+        Typeface typeface = ResourcesCompat.getFont(getApplicationContext(), R.font.fira_sans_medium);
 
         linlayout = (LinearLayout) findViewById(R.id.activity_guide);
         MTMathView mathview = (MTMathView)findViewById(R.id.mathview);
 
-        mathview.setLatex("x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}");
-        mathview.setFontSize(100);
+        mathview.setLatex("F = G \\frac{mM}{r^2}");
+        mathview.setFontSize(60);
 
         ArrayList<String> def = getDefenition();
 
         //def - массив строк с определениями
         // в getParams() получаем параметры layout
         // def_text - textiew, тут разные настройки ставить
+
         for (String d: def) {
+
             TextView def_text = new TextView(getApplicationContext());
             def_text.setText(d);
             def_text.setLayoutParams(getParams());
+            def_text.setTextColor(Color.BLACK);
+            def_text.setTextSize(18);
+            def_text.setTypeface(typeface);
 
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            params.setMargins(100,20,100,50);
+            def_text.setLayoutParams(params);
 
             linlayout.addView(def_text);
         }

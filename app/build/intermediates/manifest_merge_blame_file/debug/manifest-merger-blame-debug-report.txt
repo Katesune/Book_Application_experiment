@@ -5,148 +5,148 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:6:5-57
+7-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:6:5-57
 8        android:minSdkVersion="21"
-8-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:6:5-57
+8-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:6:5-57
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:6:5-57
+9-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:6:5-57
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:8:5-81
-11-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:8:22-78
+11-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:8:5-81
+11-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:8:22-78
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:9:5-80
-12-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:9:22-77
+12-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:9:5-80
+12-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:9:22-77
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:10:5-67
-13-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:10:22-64
+13-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:10:5-67
+13-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:10:22-64
 14
 15    <application
-15-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:12:5-38:19
+15-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:12:5-38:19
 16        android:allowBackup="true"
-16-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:13:9-35
+16-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:13:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.3.1] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\f7f6328d24eed088cda2dc8ba4de7241\core-1.3.1\AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.3.1] C:\Users\1\.gradle\caches\transforms-2\files-2.1\f7f6328d24eed088cda2dc8ba4de7241\core-1.3.1\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:14:9-43
+19-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:14:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:15:9-41
+20-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:15:9-41
 21        android:networkSecurityConfig="@xml/network_security_config"
-21-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:18:9-69
+21-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:18:9-69
 22        android:requestLegacyExternalStorage="true"
-22-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:16:9-52
+22-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:16:9-52
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:17:9-54
+23-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:17:9-54
 24        android:sharedUserId="android.uid.system"
-24-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:18:9-50
+24-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:18:9-50
 25        android:supportsRtl="true"
-25-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:19:9-35
+25-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:19:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.BookApplication" >
-27-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:20:9-53
+27-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:20:9-53
 28        <activity android:name="com.example.bookapplication.TestActivity" />
-28-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:9-59
-28-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:21:19-47
+28-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:21:9-59
+28-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:21:19-47
 29        <activity android:name="com.example.bookapplication.GuideActivity" />
-29-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:9-51
-29-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:22:19-48
+29-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:22:9-51
+29-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:22:19-48
 30        <activity android:name="com.example.bookapplication.GotoEpubFile" />
-30-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:9-50
-30-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:23:19-47
+30-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:23:9-50
+30-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:23:19-47
 31        <activity android:name="com.example.bookapplication.SkyepubBook" />
-31-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:9-49
-31-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:24:19-46
+31-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:24:9-49
+31-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:24:19-46
 32        <activity android:name="com.example.bookapplication.PageActivity" />
-32-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:9-50
-32-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:25:19-47
+32-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:25:9-50
+32-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:25:19-47
 33        <activity android:name="com.example.bookapplication.ActivityActivity" />
-33-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:9-54
-33-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:26:19-51
+33-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:26:9-54
+33-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:26:19-51
 34        <activity android:name="com.example.bookapplication.MainActivity" >
-34-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:27:9-33:20
-34-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:27:19-47
+34-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:27:9-33:20
+34-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:27:19-47
 35            <intent-filter>
-35-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:28:13-32:29
+35-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:28:13-32:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:29:17-69
-36-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:29:25-66
+36-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:29:17-69
+36-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:29:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:31:17-77
-38-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:31:27-74
+38-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:31:17-77
+38-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:31:27-74
 39            </intent-filter>
 40        </activity>
 41
 42        <uses-library
-42-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:35:9-37:40
+42-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:35:9-37:40
 43            android:name="org.apache.http.legacy"
-43-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:36:13-50
+43-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:36:13-50
 44            android:required="false" />
-44-->C:\Users\Katya\AndroidStudioProjects\BookApplication\app\src\main\AndroidManifest.xml:37:13-37
+44-->C:\Users\1\Documents\android\Book_Application_experiment\app\src\main\AndroidManifest.xml:37:13-37
 45
 46        <provider
-46-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:20:9-23:40
+46-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:20:9-23:40
 47            android:name="com.folioreader.AppContext"
-47-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:21:13-54
+47-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:21:13-54
 48            android:authorities="com.example.bookapplication.provider.appcontext"
-48-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:22:13-71
+48-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:22:13-71
 49            android:exported="false" />
-49-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:23:13-37
+49-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:23:13-37
 50
 51        <activity
-51-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:25:9-28:60
+51-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:25:9-28:60
 52            android:name="com.folioreader.ui.activity.FolioActivity"
-52-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:26:13-69
+52-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:26:13-69
 53            android:label="@string/app_name"
-53-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:27:13-45
+53-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:27:13-45
 54            android:theme="@style/FolioActivityDayTheme" />
-54-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:28:13-57
+54-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:28:13-57
 55        <activity
-55-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:29:9-31:59
+55-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:29:9-31:59
 56            android:name="com.folioreader.ui.activity.ContentHighlightActivity"
-56-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:30:13-80
+56-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:30:13-80
 57            android:theme="@style/AppTheme.NoActionBar" />
-57-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:31:13-56
+57-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:31:13-56
 58        <activity
-58-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:32:9-42:20
+58-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:32:9-42:20
 59            android:name="com.folioreader.ui.activity.SearchActivity"
-59-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:33:13-70
+59-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:33:13-70
 60            android:launchMode="singleTop" >
-60-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:34:13-43
+60-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:34:13-43
 61            <intent-filter>
-61-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:35:13-37:29
+61-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:35:13-37:29
 62                <action android:name="android.intent.action.SEARCH" />
-62-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:36:17-71
-62-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:36:25-68
+62-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:36:17-71
+62-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:36:25-68
 63            </intent-filter>
 64
 65            <meta-data
-65-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:39:13-41:54
+65-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:39:13-41:54
 66                android:name="android.app.searchable"
-66-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:40:17-54
+66-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:40:17-54
 67                android:resource="@xml/searchable" />
-67-->[com.folioreader:folioreader:0.5.4] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:41:17-51
+67-->[com.folioreader:folioreader:0.5.4] C:\Users\1\.gradle\caches\transforms-2\files-2.1\0f37725f7718c759f1d855ba25d5c65d\folioreader-0.5.4\AndroidManifest.xml:41:17-51
 68        </activity>
 69
 70        <provider
-70-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:22:9-25:40
+70-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\1\.gradle\caches\transforms-2\files-2.1\538c4da8702f21c4c27e41a0a473fdd1\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:22:9-25:40
 71            android:name="org.readium.r2.streamer.ClientAppContext"
-71-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:23:13-68
+71-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\1\.gradle\caches\transforms-2\files-2.1\538c4da8702f21c4c27e41a0a473fdd1\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:23:13-68
 72            android:authorities="com.example.bookapplication.provider.clientappcontext"
-72-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:24:13-77
+72-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\1\.gradle\caches\transforms-2\files-2.1\538c4da8702f21c4c27e41a0a473fdd1\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:24:13-77
 73            android:exported="false" />
-73-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\d45cb4625718e9e027c85b0ce6cf7938\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:25:13-37
+73-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\1\.gradle\caches\transforms-2\files-2.1\538c4da8702f21c4c27e41a0a473fdd1\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:25:13-37
 74        <provider
-74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\1\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 75            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\1\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 76            android:authorities="com.example.bookapplication.lifecycle-process"
-76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\1\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 77            android:exported="false"
-77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\1\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 78            android:multiprocess="true" />
-78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Katya\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\1\.gradle\caches\transforms-2\files-2.1\74503ba56a26fad4b2898a0708490b8d\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 79    </application>
 80
 81</manifest>
