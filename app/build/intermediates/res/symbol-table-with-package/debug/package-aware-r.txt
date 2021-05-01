@@ -1848,6 +1848,16 @@ drawable test_custom_background
 drawable thumb
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tr1
+drawable tr2
+drawable tr3
+drawable tr4
+drawable tr5
+drawable tr6
+drawable tr7
+drawable tr8
+drawable tr9
+drawable track
 drawable transparent_selector
 drawable trash
 font fira_sans
@@ -2642,6 +2652,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string andada
 string andada_font
+string anim_file0
+string anim_type0
 string app_name
 string appbar_scrolling_view_behavior
 string audio_mark_id

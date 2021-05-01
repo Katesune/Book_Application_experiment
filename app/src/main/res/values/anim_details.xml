@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="anim_type0">cadr</string>
+    <string name="anim_file0">track</string>
+
+    <string name="anim_type1">draw</string>
+    <string name="anim_file1">track</string>
+
+</resources>

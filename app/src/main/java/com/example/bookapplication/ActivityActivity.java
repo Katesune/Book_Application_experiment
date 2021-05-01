@@ -3,10 +3,13 @@ package com.example.bookapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -25,27 +28,29 @@ public class ActivityActivity extends AppCompatActivity {
 
         linlayout = (LinearLayout) findViewById(R.id.activity_activity);
 
-        int page_number = getIntent().getIntExtra("page_number", 0);
+        int animation_number = getIntent().getIntExtra("animation_number", 0);
         //String type = getIntent().getStringExtra("animation_type");
 
         //создаем элемент ResoursesHelper,
                                 // в котором у нас будут нужный файлы ресурсов по странице
         //создаем элемент AnimationRunner,
-                                //в котором есть функции определения типа анимации по номеру страницы и
+                                //в котором есть функции определения типа анимации по номеру анимации и
                                 //запуск самой анимации
 
-        ResoursesHelper res_help = new ResoursesHelper(linlayout, getApplicationContext(), page_number);
-        AnimationRunner anim_run = new AnimationRunner(res_help);
+        ResoursesHelper res_help = new ResoursesHelper(getApplicationContext(), 0);
+        res_help.setAnimationNumber(animation_number);
 
-        // находим анимации по странице и запускаем нужный тип
-        // необходимо продумать определение анимации по странице, возможно создать файл "page_number"="draw"
-        res_help.CheckAnimationToPage();
-        anim_run.checkAnimationType("draw");
+        AnimationRunner anim_run = new AnimationRunner(res_help, linlayout);
+
+        // находим анимации по номеру и запускаем нужный тип
+
+        //anim_run.addImageView();
+        ImageView imageView = anim_run.startAnimation();
+        linlayout.addView(imageView);
     }
 
-//    public String getType(int page_number){
-//        String page = "page_" + Integer.toString(page_number);
-//        int id = getResources().getIdentifier(page, "String","com.example.bookapplication");
-//        return page;
-//    }
+    public void goToMain(View v) {
+        Intent intent = new Intent(ActivityActivity.this, GuideActivity.class);
+        startActivity(intent);
+    }
 }

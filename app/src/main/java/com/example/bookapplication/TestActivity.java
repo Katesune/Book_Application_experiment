@@ -18,6 +18,8 @@ public class TestActivity extends AppCompatActivity {
     int result = 0;
     int step = 0;
 
+    StringResourceHelper helper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +28,9 @@ public class TestActivity extends AppCompatActivity {
         q_number = getIntent().getIntExtra("q_number", 0);
         result = getIntent().getIntExtra("result", 0);
         step = getIntent().getIntExtra("step", 0);
+
+        helper = new StringResourceHelper(getApplicationContext());
+        helper.setQuestionNumber(q_number);
 
         final TextView qu = (TextView)findViewById(R.id.textq_1);
         final Button b1 = (Button)findViewById(R.id.var1);
@@ -40,41 +45,16 @@ public class TestActivity extends AppCompatActivity {
         setListeners(bs);
     }
 
-    private String getQuestionName(){
-        return "q"+Integer.toString(q_number);
-    }
-
-    private String[] getAnswersName(){
-        String[] ans = new String[4];
-
-        for (int i = 0; i < 4; i++) {
-            ans[i] = "q"+Integer.toString(q_number)+"a"+Integer.toString(i);
-        }
-
-        return ans;
-    }
-
-    private int getRightAnswer() {
-        String right_num = getString(getIdRes(getQuestionName()+"right"));
-        return Integer.parseInt(right_num);
-    }
-
     private void setQuestion(TextView qu) {
-        int num = getIdRes(getQuestionName());
-        qu.setText(getResources().getString(num));
+        qu.setText(helper.getQuestion());
     }
 
     private void setAnswers(Button[] bs) {
-        String[] ans = getAnswersName();
+        String[] ans = helper.getAnswers(bs.length);
 
         for (int i = 0; i < bs.length; i++) {
-            int num = getIdRes(ans[i]);
-            bs[i].setText(getResources().getString(num));
+            bs[i].setText(ans[i]);
         }
-    }
-
-    private int getIdRes(String name) {
-        return getResources().getIdentifier(name, "string", getApplicationContext().getPackageName());
     }
 
     public void goToMain(View v) {
@@ -90,7 +70,7 @@ public class TestActivity extends AppCompatActivity {
 
 
     public void setListeners(Button[] bs) {
-        int right_answer = getRightAnswer();
+        int right_answer = helper.getRightAnswer();
 
         for (int i = 0; i < bs.length; i++) {
             if (i==right_answer) {

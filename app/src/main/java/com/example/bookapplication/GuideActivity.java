@@ -4,13 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.res.ResourcesCompat;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -24,16 +27,19 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class GuideActivity extends AppCompatActivity {
     LinearLayout linlayout;
+    int animation_number = 0;
+    Context c;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity_guide);
 
+        c = getApplicationContext();
         linlayout = (LinearLayout) findViewById(R.id.activity_guide);
         MTMathView mathview = (MTMathView)findViewById(R.id.mathview);
 
-        ArrayList<TextView> texts = new ArrayList<TextView>();
+        ArrayList<TextView> texts;
 
         ArrayList<String> def = getDefenition();
 
@@ -50,12 +56,50 @@ public class GuideActivity extends AppCompatActivity {
         linlayout.addView(texts.get(2));
         linlayout.addView(texts.get(3));
 
+        setAnimation();
+
+        animation_number = 1;
+
         //def - массив строк с определениями
         // в getParams() получаем параметры layout
         // def_text - textiew, тут разные настройки ставить
 
 //        Parser parser = new Parser ("http://whatever");
 //        NodeList list = parser.parse (null);
+    }
+
+    public void setGif(int gif_number){
+        StringResourceHelper str_helper = new StringResourceHelper(c);
+
+        ImageView imageView = new ImageView(getApplicationContext());
+
+        Drawable gif =str_helper.getDrawable(gif_number);
+
+
+
+    }
+
+    public void setAnimation() {
+        ResoursesHelper res_help = new ResoursesHelper(c, animation_number);
+        res_help.setAnimationNumber(animation_number);
+
+        AnimationRunner anim_run = new AnimationRunner(res_help, linlayout);
+        res_help.setDrawableResource();
+
+        ImageView imageView = anim_run.startAnimation();
+        setImageViewListener(imageView);
+        linlayout.addView(imageView);
+    }
+
+    public void setImageViewListener(ImageView imageView){
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GuideActivity.this, ActivityActivity.class);
+                intent.putExtra("animation_number", animation_number);
+                startActivity(intent);
+            }
+        });
     }
 
     public void setResult(int[] values, TextView text){
@@ -68,9 +112,9 @@ public class GuideActivity extends AppCompatActivity {
     }
 
     public TextView getResultField(){
-        LinearLayout new_linlayout = new LinearLayout(getApplicationContext());
-        MTMathView mark = new MTMathView(getApplicationContext());
-        TextView text = new TextView(getApplicationContext());
+        LinearLayout new_linlayout = new LinearLayout(c);
+        MTMathView mark = new MTMathView(c);
+        TextView text = new TextView(c);
 
         mark.setLatex("F = ");
         mark.setLayoutParams(getParams());
@@ -101,7 +145,7 @@ public class GuideActivity extends AppCompatActivity {
         ArrayList<LinearLayout> linlayouts = new ArrayList<LinearLayout>();
 
         for (int i =0 ; i<4; i++) {
-            LinearLayout new_linlayout = new LinearLayout(getApplicationContext());
+            LinearLayout new_linlayout = new LinearLayout(c);
             new_linlayout.addView(marks[i]);
             new_linlayout.addView(edit_fields[i]);
             linlayout.addView(new_linlayout);
@@ -133,7 +177,7 @@ public class GuideActivity extends AppCompatActivity {
 
         MTMathView[] marks = new MTMathView[4];
         for (int i =0 ; i<4; i++) {
-            MTMathView mark = new MTMathView(getApplicationContext());
+            MTMathView mark = new MTMathView(c);
             mark.setLayoutParams(getParams());
             mark.setFontSize(60);
             marks[i] = mark;
@@ -146,7 +190,7 @@ public class GuideActivity extends AppCompatActivity {
 
         EditText[] edit_fileds = new EditText[4];
         for (int i =0 ; i<4; i++) {
-            EditText ed_text = new EditText(getApplicationContext());
+            EditText ed_text = new EditText(c);
             ed_text.setText("0");
             ed_text.setInputType(InputType.TYPE_CLASS_NUMBER|InputType.TYPE_NUMBER_FLAG_SIGNED|InputType.TYPE_NUMBER_FLAG_DECIMAL);
             ed_text.setLayoutParams(getParams());
@@ -159,10 +203,10 @@ public class GuideActivity extends AppCompatActivity {
 
     public ArrayList<TextView> generateTextView(ArrayList<String> def) {
         ArrayList<TextView> texts = new ArrayList<TextView>();
-        Typeface typeface = ResourcesCompat.getFont(getApplicationContext(), R.font.fira_sans_medium);
+        Typeface typeface = ResourcesCompat.getFont(c, R.font.fira_sans_medium);
 
         for (String d : def) {
-            TextView def_text = new TextView(getApplicationContext());
+            TextView def_text = new TextView(c);
             def_text.setText(d);
             def_text.setTextColor(Color.BLACK);
             def_text.setTextSize(18);
@@ -198,7 +242,7 @@ public class GuideActivity extends AppCompatActivity {
 
     public ArrayList<String> getDefenition() {
         ArrayList<String> def = new ArrayList<String>();
-        Parser p = new Parser(getApplicationContext());
+        Parser p = new Parser(c);
 
         try {
             def = p.getDefenition();
