@@ -1962,7 +1962,6 @@ id btn_text_color_style
 id btn_text_undeline_style
 id btn_twox_speed
 id btn_wikipedia
-id button
 id button2
 id button3
 id buttonHorizontal
@@ -2130,6 +2129,7 @@ id ll_wiki
 id loading
 id loadingView
 id main
+id main_activity_guide
 id masked
 id material_clock_display
 id material_clock_face
@@ -2163,6 +2163,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id msg
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2190,7 +2191,6 @@ id multiply
 id name
 id navigation_header_container
 id never
-id next
 id next_button
 id noScroll
 id no_network
@@ -2246,6 +2246,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scores
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2328,8 +2329,6 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
-id textView4
 id textViewCount
 id textViewResult
 id textViewTitle
@@ -2475,7 +2474,6 @@ layout action_item_vertical
 layout activity_activity
 layout activity_content_highlight
 layout activity_goto_epub_file
-layout activity_guide
 layout activity_main
 layout activity_page
 layout activity_search
@@ -2513,6 +2511,7 @@ layout item_search_normal
 layout item_search_pagination_in_progress
 layout layout_dictionary
 layout layout_wikipedia
+layout main_activity_guide
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2788,6 +2787,24 @@ string q1a1
 string q1a2
 string q1a3
 string q1right
+string q2
+string q2a0
+string q2a1
+string q2a2
+string q2a3
+string q2right
+string q3
+string q3a0
+string q3a1
+string q3a2
+string q3a3
+string q3right
+string q4
+string q4a0
+string q4a1
+string q4a2
+string q4a3
+string q4right
 string raleway
 string raleway_font
 string red_rgb

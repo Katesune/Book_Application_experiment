@@ -47,13 +47,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="150dp"
-            android:layout_marginBottom="150dp"
+            android:layout_marginBottom="100dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/msg"
+                android:layout_width="411dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/fira_sans_bold"
                 android:text="TextView"
@@ -62,7 +62,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/scores"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -79,36 +79,32 @@
                 android:layout_marginTop="25dp">
 
                 <Button
-                    android:id="@+id/button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="40dp"
-                    android:text="Button" />
-
-                <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:onClick="again"
+                    android:text="Повторить" />
             </LinearLayout>
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="goToMain"
+            android:text="Вернуться в меню" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:gravity="bottom"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Button" />
         </LinearLayout>
 
     </LinearLayout>

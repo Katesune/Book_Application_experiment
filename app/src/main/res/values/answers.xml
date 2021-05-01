@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="q0a0">6</string>
-    <string name="q0a1">12</string>
-    <string name="q0a2">8</string>
-    <string name="q0a3">10</string>
-    <string name="q0right">1</string>
+    <string name="q0a0">движение и происхождение небесных тел и их систем</string>
+    <string name="q0a1">развитие небесных тел и их природы</string>
+    <string name="q0a2">движение, природу, происхождение и развитие небесных тел и их систем</string>
+    <string name="q0a3">физические процессы в астрономических объектах</string>
+    <string name="q0right">2</string>
 
-    <string name="q1a0">6</string>
-    <string name="q1a1">12</string>
-    <string name="q1a2">8</string>
-    <string name="q1a3">10</string>
+    <string name="q1a0">зодиакальный пояс созвездий</string>
+    <string name="q1a1">круг небесной сферы, по которому происходит видимое с Земли годичное движение Солнца относительно звёзд</string>
+    <string name="q1a2">линия, вдоль которой движется Луна</string>
+    <string name="q1a3">траектория движения планеты</string>
     <string name="q1right">1</string>
+
+    <string name="q2a0">зенит</string>
+    <string name="q2a1">верхняя кульминация</string>
+    <string name="q2a2">прямое восхождение</string>
+    <string name="q2a3">склонение</string>
+    <string name="q2right">0</string>
+
+    <string name="q3a0">вращение Земли вокруг оси</string>
+    <string name="q3a1">движение Земли вокруг Солнца</string>
+    <string name="q3a2">взаимное расположение Солнца, Луны и Земли, при котором Земля попадает в тень Луны</string>
+    <string name="q3a3">взаимное расположение Солнца, Луны и Земли, при котором Луна попадает в тень Земли</string>
+    <string name="q3right">2</string>
+
+    <string name="q4a0">окружности</string>
+    <string name="q4a1">эллипсы</string>
+    <string name="q4a2">параболы</string>
+    <string name="q4a3">эллипсы и параболы</string>
+    <string name="q4right">1</string>
 </resources>

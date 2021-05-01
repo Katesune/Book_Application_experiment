@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="q0">Сколько всего знаков в зодиакальном круге? </string>
-    <string name="q1">Сколько всего знаков вsdgsdsdd зодиакальном круге? </string>
+    <string name="q0">Астрономия – наука, изучающая …</string>
+    <string name="q1">Эклиптика – это …</string>
+    <string name="q2">Самое высокое положение светила относительно горизонта, достигаемое при его прохождении через небесный меридиан - …</string>
+    <string name="q3">Что является причиной затмения Солнца? </string>
+    <string name="q4">Орбитами планет являются … </string>
 </resources>

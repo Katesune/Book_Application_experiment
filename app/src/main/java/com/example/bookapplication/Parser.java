@@ -52,7 +52,6 @@ public class Parser {
                     String style = nList.item(temp).getAttributes().getNamedItem("style").getNodeValue();
                     if (style.equals("font-weight:bold;font-style:italic;")) {
                         String value = nList.item(temp).getTextContent();
-                        Log.d("mytitle", value);
                         d.add(value);
                     }
                 } catch (NullPointerException e) {
