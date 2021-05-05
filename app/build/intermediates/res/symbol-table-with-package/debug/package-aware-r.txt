@@ -1799,6 +1799,9 @@ drawable kometa8
 drawable kometa9
 drawable learn
 drawable man_speech_icon
+drawable mars
+drawable mars1
+drawable mars2
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2256,6 +2259,8 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scene_mars1
+id scene_mars2
 id scores
 id screen
 id scroll
@@ -2522,6 +2527,9 @@ layout item_search_pagination_in_progress
 layout layout_dictionary
 layout layout_wikipedia
 layout main_activity_guide
+layout main_activity_guide2
+layout marc1
+layout marc2
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2653,7 +2661,9 @@ string abc_toolbar_collapse_description
 string andada
 string andada_font
 string anim_file0
+string anim_file1
 string anim_type0
+string anim_type1
 string app_name
 string appbar_scrolling_view_behavior
 string audio_mark_id
@@ -2695,6 +2705,8 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string full_path
+string gif0
+string gif1
 string go_to_anchor
 string go_to_highlight
 string green_rgb

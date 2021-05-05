@@ -47,10 +47,6 @@ public class GotoEpubFile extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_goto_epub_file);
 
-        //ReadLocator readLocator = getLastReadLocator();
-
-        //Log.d("mytag", "readlocator"+readLocator.toString());
-        //linlayout = (LinearLayout) findViewById(R.id.go_to_epub_file);
         folioReader =  FolioReader
                 .get()
                 .setOnHighlightListener(this)
@@ -63,8 +59,6 @@ public class GotoEpubFile extends AppCompatActivity
         config.setAllowedDirection(Config.AllowedDirection.VERTICAL_AND_HORIZONTAL);
 
 
-        //folioReader.setReadLocator(readLocator);
-
         folioReader.setConfig(config, true)
                 .openBook(R.raw.astronomy);
 
@@ -74,11 +68,6 @@ public class GotoEpubFile extends AppCompatActivity
         //ReadLocator new_readlocator = new ReadLocator();
         Log.d("mytag", "readlocator"+config.toString());
 
-
-
-        //MILParser sm = new SMILParser();
-
-//
     }
 
     private ReadLocator getLastReadLocator() {

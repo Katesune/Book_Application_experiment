@@ -59,19 +59,7 @@ public class AnimationRunner {
 
         return imageView;
     }
-
-//    //Добавление анимации на linearlayot
-//    public ImageView addImageView(){
-//        ImageView imageView = new ImageView(cnt);
-//
-//        ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams
-//                (ConstraintLayout.LayoutParams.MATCH_PARENT, ConstraintLayout.LayoutParams.WRAP_CONTENT);
-//
-//        imageView.setLayoutParams(layoutParams);
-//        res_help.linlayout.addView(imageView);
-//
-//        return imageView;
-//    }
+    
 
     //сверяем тип анимации и запукаем нужный
     public ImageView startAnimation(){

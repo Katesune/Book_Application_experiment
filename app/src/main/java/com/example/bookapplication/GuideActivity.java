@@ -1,9 +1,11 @@
 package com.example.bookapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.motion.widget.MotionLayout;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.res.ResourcesCompat;
 
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,7 +13,14 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.InputType;
+import android.transition.Explode;
+import android.transition.Scene;
+import android.transition.Transition;
+import android.transition.TransitionInflater;
+import android.transition.TransitionManager;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,11 +42,34 @@ public class GuideActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setAllowEnterTransitionOverlap(true);
         setContentView(R.layout.main_activity_guide);
 
         c = getApplicationContext();
         linlayout = (LinearLayout) findViewById(R.id.activity_guide);
         MTMathView mathview = (MTMathView)findViewById(R.id.mathview);
+
+//        ViewGroup sceneRoot = (ViewGroup)findViewById(R.id.scene_root);
+//        //ImageView mars_view = (ImageView)findViewById(R.id.scene_mars1);
+//        Scene firstScene = Scene.getSceneForLayout(sceneRoot, R.layout.marc1, this);
+//        Scene secondScene = Scene.getSceneForLayout(sceneRoot, R.layout.marc2, this);
+//
+//        Transition Transition = TransitionInflater.from(this)
+//                .inflateTransition(R.transition.fade_transition);
+//
+//        TransitionManager transitionManager = TransitionInflater.from(c)
+//                .inflateTransitionManager(R.transition.transition_manager, sceneRoot);
+//
+//        transitionManager.transitionTo(secondScene);
+
+// set an exit transition
+        //getWindow().setExitTransition(new Explode());
+//        Scene scene = Scene.getSceneForLayout(linlayout, R.layout.main_activity_guide, c);
+//        scene.setEnterAction(ActivityOptions.makeSceneTransitionAnimation(this, scene, "photo").toBundle());
+//        startActivity(Intent(this, ImageActivity::class.java).putExtra
+//                ("photo", R.drawable.honeycomb), ActivityOptions.makeSceneTransitionAnimation(this, iv1, "photo").toBundle());
+////        Scene scene = Scene.getSceneForLayout(linlayout, R.layout.main_activity_guide, c);
+////        TransitionManager.go(scene);
 
         ArrayList<TextView> texts;
 
@@ -66,6 +98,11 @@ public class GuideActivity extends AppCompatActivity {
 
 //        Parser parser = new Parser ("http://whatever");
 //        NodeList list = parser.parse (null);
+    }
+
+    public void createMotion(View v) {
+        MotionLayout motionLayout = (MotionLayout) findViewById(R.id.motion_container);
+        motionLayout.transitionToEnd();
     }
 
     public void setGif(int gif_number){
