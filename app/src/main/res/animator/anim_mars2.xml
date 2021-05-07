@@ -1,0 +1,5 @@
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1500">
+    <propertyValuesHolder android:propertyName="x" android:valueTo="630"/>
+    <propertyValuesHolder android:propertyName="y" android:valueTo="335"/>
+</objectAnimator>

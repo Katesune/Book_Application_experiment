@@ -4,6 +4,12 @@
     <string name="anim_file0">track</string>
 
     <string name="anim_type1">draw</string>
-    <string name="anim_file1">track</string>
+    <string name="anim_file1">mars</string>
+
+    <string name="draw1_file0">anim_mars1</string>
+    <string name="draw1_file1">anim_mars2</string>
+    <string name="draw1_file2">anim_mars3</string>
+    <string name="draw1_file3">anim_mars4</string>
+    <string name="draw1_file4">anim_mars5</string>
 
 </resources>

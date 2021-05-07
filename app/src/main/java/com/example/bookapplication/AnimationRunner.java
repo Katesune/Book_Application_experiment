@@ -1,12 +1,11 @@
 package com.example.bookapplication;
 
+import android.animation.AnimatorInflater;
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
-import android.provider.ContactsContract;
-import android.util.Log;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -26,6 +25,7 @@ public class AnimationRunner {
     ImageView imageView;
 
     int animation_number = 0;
+    int length;
 
     AnimationRunner(){}
 
@@ -45,7 +45,7 @@ public class AnimationRunner {
     public void setAnimationResource(Drawable a){
         animation = a;
     }
-
+    
     //добавление mini animation
     //добляем мини-анимацию на активити, с слушателем для перехода на страницу анимации
     public ImageView setImageViewDetails(){
@@ -86,15 +86,69 @@ public class AnimationRunner {
         PageAnimationDrawable.start();
     }
 
+    public void setLength(int l){
+        length = l;
+    }
+    
     //анимация преобразований, будет удобно использовать для одного элемента
     //включает в себя вращение, изменение размера, транспортировку по осям
     public void oneElementAnimation(ImageView imageView) {
         imageView.setImageDrawable(animation);
                                     // animations.get(0) - первый ресурс drawable, содержит описание объекта
-        Animation sunRiseAnimation = AnimationUtils.loadAnimation(c, R.anim.anim_one_element_test);
-                                                                        //anim_one_element_test - 2 ресурс xml,
-                                                                        //содержит описание преобразований
-        imageView.startAnimation(sunRiseAnimation);
+
+        AnimatorSet set = new AnimatorSet();
+
+        //Animation drawAnimation = AnimationUtils.loadAnimation(c, R.anim.anim_mars1);
+                                                                //anim_mars1 - 2 ресурс xml,
+                                                                //содержит описание преобразований
+
+
+//        set.addAnimation(drawAnimation);
+//        set.addAnimation(drawAnimation1);
+//        //set.addAnimation(drawAnimation2);
+//
+//        set.
+//
+//        imageView.startAnimation(set);
+       // imageView.startAnimation(drawAnimation1);
+        //imageView.startAnimation(drawAnimation2);
+
+        ArrayList<ObjectAnimator> an = res_help.getDrawAnimationFiles();
+
+        for (ObjectAnimator a: an) {
+            a.setTarget(imageView);
+            a.setStartDelay(0);
+        }
+
+        set.playSequentially(
+                an.get(0), an.get(1), an.get(2),
+                an.get(3), an.get(4), an.get(5),
+                an.get(6), an.get(7));
+
+//        ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars1);
+//
+//        ObjectAnimator animator1 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars2);
+//
+//        ObjectAnimator animator2 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars3);
+//
+//        ObjectAnimator animator3 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars4);
+//
+//        ObjectAnimator animator4 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars5);
+//
+//        animator.setTarget(imageView);
+//        animator1.setTarget(imageView);
+//        animator2.setTarget(imageView);
+//        animator3.setTarget(imageView);
+
+        //set.playSequentially(animator, animator1, animator2, animator3);
+
+        set.start();
+
     }
 
 }

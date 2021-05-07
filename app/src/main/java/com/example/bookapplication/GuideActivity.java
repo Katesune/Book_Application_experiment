@@ -22,6 +22,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -42,12 +43,13 @@ public class GuideActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setAllowEnterTransitionOverlap(true);
-        setContentView(R.layout.main_activity_guide);
+        //getWindow().setAllowEnterTransitionOverlap(true);
+        setContentView(R.layout.activity_guide);
 
         c = getApplicationContext();
         linlayout = (LinearLayout) findViewById(R.id.activity_guide);
         MTMathView mathview = (MTMathView)findViewById(R.id.mathview);
+        FrameLayout mars_container = (FrameLayout)findViewById(R.id.mars_container);
 
 //        ViewGroup sceneRoot = (ViewGroup)findViewById(R.id.scene_root);
 //        //ImageView mars_view = (ImageView)findViewById(R.id.scene_mars1);
@@ -80,6 +82,10 @@ public class GuideActivity extends AppCompatActivity {
 
         texts = generateTextView(def);
 
+        animation_number = 1;
+
+        setAnimationDraw(mars_container);
+
         linlayout.addView(texts.get(0));
         linlayout.addView(texts.get(1));
 
@@ -88,9 +94,9 @@ public class GuideActivity extends AppCompatActivity {
         linlayout.addView(texts.get(2));
         linlayout.addView(texts.get(3));
 
-        setAnimation();
-
-        animation_number = 1;
+//        animation_number = 0;
+//
+//        setAnimation();
 
         //def - массив строк с определениями
         // в getParams() получаем параметры layout
@@ -111,9 +117,25 @@ public class GuideActivity extends AppCompatActivity {
         ImageView imageView = new ImageView(getApplicationContext());
 
         Drawable gif =str_helper.getDrawable(gif_number);
+    }
 
+    public void setAnimationDraw(FrameLayout container) {
 
+        ResoursesHelper res_help = new ResoursesHelper(c, animation_number);
+        res_help.setAnimationNumber(animation_number);
 
+        AnimationRunner anim_run = new AnimationRunner(res_help, linlayout);
+        res_help.setDrawableResource();
+
+        anim_run.setLength(5);
+        ImageView imageView = anim_run.startAnimation();
+        setImageViewListener(imageView);
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        layoutParams.leftMargin = 30;
+        layoutParams.topMargin = 290;
+
+        imageView.setLayoutParams(layoutParams);
+        container.addView(imageView);
     }
 
     public void setAnimation() {

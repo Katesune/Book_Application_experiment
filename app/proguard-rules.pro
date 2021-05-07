@@ -12,6 +12,10 @@
 #   public *;
 #}
 
+-keepclassmembers class **.R$* {
+       public static <fields>;
+}
+
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable

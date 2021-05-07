@@ -1,8 +1,13 @@
 package com.example.bookapplication;
 
+import android.animation.AnimatorInflater;
+import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
+
+import java.util.ArrayList;
 
 public class StringResourceHelper {
     Context c;
@@ -93,5 +98,6 @@ public class StringResourceHelper {
         int num = getIdDrawable(getGifFileName(gif_number));
         return c.getDrawable(num);
     }
+
 
 }

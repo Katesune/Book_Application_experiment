@@ -18,7 +18,8 @@
         android:sharedUserId="android.uid.system"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookApplication">
-        <activity android:name=".TestResultActivity"></activity>
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".TestResultActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".GuideActivity" />
         <activity android:name=".GotoEpubFile" />

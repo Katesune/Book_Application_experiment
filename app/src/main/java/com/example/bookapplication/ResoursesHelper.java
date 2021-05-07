@@ -1,5 +1,7 @@
 package com.example.bookapplication;
 
+import android.animation.AnimatorInflater;
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -43,5 +45,47 @@ public class ResoursesHelper {
         int num = string_help.getIdDrawable(name);
         animation = c.getDrawable(num);
         return animation;
+    }
+
+    public ArrayList<ObjectAnimator> getDrawAnimationFiles() {
+        ArrayList<ObjectAnimator> an = new ArrayList<ObjectAnimator>();
+
+        ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                  R.animator.anim_mars1);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars2);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars3);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars4);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars5);
+        an.add(animator);
+
+//        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+//                R.animator.anim_mars6);
+//        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars7);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars8);
+        an.add(animator);
+
+        animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
+                R.animator.anim_mars9);
+        an.add(animator);
+
+        return an;
     }
 }
