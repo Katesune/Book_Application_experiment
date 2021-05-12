@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/activity_guide_scene"
-    app:motionDebug="SHOW_ALL"
     android:id="@+id/motion_container">
 
     <ScrollView
@@ -99,7 +98,7 @@
                             android:id="@+id/scene_mars1"
                             android:layout_width="wrap_content"
                             android:layout_height="196dp"
-                            android:src="@drawable/mars1"
+                            android:src="@drawable/mars_back"
                             android:transitionName="mars"></ImageView>
 
                         <ImageView

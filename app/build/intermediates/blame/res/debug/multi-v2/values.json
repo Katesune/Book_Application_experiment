@@ -286,11 +286,11 @@
                 {
                     "source": "C:\\Users\\Katya\\AndroidStudioProjects\\BookApplication\\app\\src\\main\\res\\values\\anim_details.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,8,9,10,11,12",
-                        "startColumns": "-1,-1,-1,-1,4,4,4,4,4",
-                        "startOffsets": "-1,-1,-1,-1,242,294,346,398,450",
-                        "endColumns": "-1,-1,-1,-1,50,50,50,50,50",
-                        "endOffsets": "-1,-1,-1,-1,288,340,392,444,496"
+                        "startLines": "-1,6,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,195,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,43,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,234,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "1122,1123,1124,1125,1159,1160,1161,1162,1163",

@@ -18,6 +18,7 @@ import android.transition.Scene;
 import android.transition.Transition;
 import android.transition.TransitionInflater;
 import android.transition.TransitionManager;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -82,10 +83,6 @@ public class GuideActivity extends AppCompatActivity {
 
         texts = generateTextView(def);
 
-        animation_number = 1;
-
-        setAnimationDraw(mars_container);
-
         linlayout.addView(texts.get(0));
         linlayout.addView(texts.get(1));
 
@@ -94,16 +91,12 @@ public class GuideActivity extends AppCompatActivity {
         linlayout.addView(texts.get(2));
         linlayout.addView(texts.get(3));
 
-//        animation_number = 0;
-//
-//        setAnimation();
+        animation_number = 1;
+        setAnimationDraw(mars_container);
 
-        //def - массив строк с определениями
-        // в getParams() получаем параметры layout
-        // def_text - textiew, тут разные настройки ставить
+        animation_number = 0;
+        setAnimation();
 
-//        Parser parser = new Parser ("http://whatever");
-//        NodeList list = parser.parse (null);
     }
 
     public void createMotion(View v) {
@@ -111,26 +104,17 @@ public class GuideActivity extends AppCompatActivity {
         motionLayout.transitionToEnd();
     }
 
-    public void setGif(int gif_number){
-        StringResourceHelper str_helper = new StringResourceHelper(c);
-
-        ImageView imageView = new ImageView(getApplicationContext());
-
-        Drawable gif =str_helper.getDrawable(gif_number);
-    }
-
     public void setAnimationDraw(FrameLayout container) {
-
         ResoursesHelper res_help = new ResoursesHelper(c, animation_number);
-        res_help.setAnimationNumber(animation_number);
 
         AnimationRunner anim_run = new AnimationRunner(res_help, linlayout);
-        res_help.setDrawableResource();
-
         anim_run.setLength(5);
         ImageView imageView = anim_run.startAnimation();
+
         setImageViewListener(imageView);
+
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
         layoutParams.leftMargin = 30;
         layoutParams.topMargin = 290;
 
@@ -140,12 +124,10 @@ public class GuideActivity extends AppCompatActivity {
 
     public void setAnimation() {
         ResoursesHelper res_help = new ResoursesHelper(c, animation_number);
-        res_help.setAnimationNumber(animation_number);
 
         AnimationRunner anim_run = new AnimationRunner(res_help, linlayout);
-        res_help.setDrawableResource();
-
         ImageView imageView = anim_run.startAnimation();
+
         setImageViewListener(imageView);
         linlayout.addView(imageView);
     }

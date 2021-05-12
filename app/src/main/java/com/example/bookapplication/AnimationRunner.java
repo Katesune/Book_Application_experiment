@@ -6,6 +6,7 @@ import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -51,7 +52,7 @@ public class AnimationRunner {
     public ImageView setImageViewDetails(){
 
         ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams
-                (animation.getMinimumWidth(), animation.getMinimumHeight());
+                (1396, 770);
 
         imageView.setLayoutParams(layoutParams);
 
@@ -59,30 +60,31 @@ public class AnimationRunner {
 
         return imageView;
     }
-    
+
 
     //сверяем тип анимации и запукаем нужный
     public ImageView startAnimation(){
-
-        ImageView imageView = setImageViewDetails();
 
         String type = res_help.getAnimationType();
 
         switch (type) {
             case "cadr":
+                imageView = setImageViewDetails();
                 cadrAnimation(imageView);
+                break;
             case "draw":
                 oneElementAnimation(imageView);
+                break;
         }
         return imageView;
     }
 
     //покадровая анимация
-    public void cadrAnimation(ImageView imageView) {
-        imageView.setBackground(animation);
+    public void cadrAnimation(ImageView im) {
+        im.setBackground(animation);
                                 // animations.get(0) - ресурс, содержащий пути к кадрам, которые будут сменяться
 
-        AnimationDrawable PageAnimationDrawable = (AnimationDrawable) imageView.getBackground();
+        AnimationDrawable PageAnimationDrawable = (AnimationDrawable) im.getBackground();
         PageAnimationDrawable.start();
     }
 
@@ -92,8 +94,8 @@ public class AnimationRunner {
     
     //анимация преобразований, будет удобно использовать для одного элемента
     //включает в себя вращение, изменение размера, транспортировку по осям
-    public void oneElementAnimation(ImageView imageView) {
-        imageView.setImageDrawable(animation);
+    public void oneElementAnimation(ImageView im) {
+        im.setImageDrawable(animation);
                                     // animations.get(0) - первый ресурс drawable, содержит описание объекта
 
         AnimatorSet set = new AnimatorSet();
@@ -116,7 +118,7 @@ public class AnimationRunner {
         ArrayList<ObjectAnimator> an = res_help.getDrawAnimationFiles();
 
         for (ObjectAnimator a: an) {
-            a.setTarget(imageView);
+            a.setTarget(im);
             a.setStartDelay(0);
         }
 
@@ -125,27 +127,6 @@ public class AnimationRunner {
                 an.get(3), an.get(4), an.get(5),
                 an.get(6), an.get(7));
 
-//        ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
-//                R.animator.anim_mars1);
-//
-//        ObjectAnimator animator1 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
-//                R.animator.anim_mars2);
-//
-//        ObjectAnimator animator2 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
-//                R.animator.anim_mars3);
-//
-//        ObjectAnimator animator3 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
-//                R.animator.anim_mars4);
-//
-//        ObjectAnimator animator4 = (ObjectAnimator) AnimatorInflater.loadAnimator(c,
-//                R.animator.anim_mars5);
-//
-//        animator.setTarget(imageView);
-//        animator1.setTarget(imageView);
-//        animator2.setTarget(imageView);
-//        animator3.setTarget(imageView);
-
-        //set.playSequentially(animator, animator1, animator2, animator3);
 
         set.start();
 
